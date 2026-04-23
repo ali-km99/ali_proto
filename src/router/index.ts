@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import MainLayout from "../components/layout/MainLayout.vue";
 import Home from "../components/views/Home.vue";
 import NotFound from "../components/views/NotFound.vue";
+import About from "../components/views/about.vue";
 
 // صفحات
 // import Home from '@/views/Home.vue'
@@ -10,26 +11,21 @@ import NotFound from "../components/views/NotFound.vue";
 // import NotFound from '@/views/NotFound.vue'
 
 const routes = [
+  { path: "/", name: "home", component: Home },
+  // {
+  //   path: "/contactus",
+  //   name: "contactus",
+  //   component: () => import("../pages/contactUs.vue"),
+  // },
+  // {
+  //   path: "/ourservices",
+  //   name: "ourservices",
+  //   component: () => import("../pages/ourservices.vue"),
+  // },
   {
-    path: "/",
-    component: MainLayout,
-    children: [
-      {
-        path: "",
-        name: "Home",
-        component: Home,
-      },
-      //   {
-      //     path: 'about',
-      //     name: 'About',
-      //     component: About,
-      //   },
-      //   {
-      //     path: 'contact',
-      //     name: 'Contact',
-      //     component: Contact,
-      //   },
-    ],
+    path: "/about",
+    name: "about",
+    component: About,
   },
 
   // صفحة 404
