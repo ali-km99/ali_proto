@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import MainLayout from "../components/layout/MainLayout.vue";
+
 import Home from "../components/views/Home.vue";
 import NotFound from "../components/views/NotFound.vue";
 import About from "../components/views/about.vue";
