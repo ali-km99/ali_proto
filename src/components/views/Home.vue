@@ -15,7 +15,7 @@
     <NavBar class="z-100" />
 
     <div
-      class="grid md:grid-cols-2 items-center px-8 md:px-16 py-20 md:py-28 gap-10 relative z-10 mt-12"
+      class="grid md:grid-cols-2 items-center px-8 md:px-16 py-20 md:py-28 relative z-10 mt-12"
     >
       <!-- Left - fade up -->
       <div
@@ -108,7 +108,7 @@
           x: 0,
           transition: { duration: 700, delay: 400, ease: 'easeOut' },
         }"
-        class="relative flex justify-center items-center"
+        class="relative flex justify-center items-center top-20 md:top-0 h-[40vh]"
       >
         <div
           class="absolute w-85 h-85 border border-[#FFC107]/20 rounded-2xl rotate-6"
@@ -412,7 +412,7 @@
   </section>
 
   <!-- ═══ PROJECTS SECTION ═══ -->
-  <section class="bg-black text-white py-24">
+  <section class="bg-black text-white py-24 relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-6">
       <div
         v-motion
@@ -498,7 +498,7 @@
   </section>
 
   <!-- ═══ SERVICES SECTION ═══ -->
-  <section class="bg-black text-white py-24 overflow-hidden">
+  <section class="bg-black text-white py-24 relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-6">
       <div
         v-motion
@@ -523,7 +523,7 @@
             scale: 1,
             transition: { duration: 500, delay: i * 120 },
           }"
-          class="group relative rounded-2xl border border-white/10 p-6 bg-gradient-to-b from-white/5 to-transparent hover:border-yellow-500/40 transition duration-300"
+          class="group relative rounded-2xl border border-white/10 p-6 bg-linear-to-b from-white/5 to-transparent hover:border-yellow-500/40 transition duration-300"
         >
           <div
             class="w-12 h-12 flex items-center justify-center border border-yellow-500 text-black rounded-lg mb-6 transition duration-300 group-hover:bg-yellow-500 group-hover:scale-110"
@@ -590,7 +590,9 @@
   </section>
 
   <!-- ═══ CONTACT SECTION ═══ -->
-  <section class="py-20 px-6 md:px-16 bg-black text-white">
+  <section
+    class="py-20 px-6 md:px-16 bg-black text-white relative overflow-hidden"
+  >
     <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
       <!-- LEFT -->
       <div
@@ -914,7 +916,7 @@ const services = [
 }
 .gradient-text {
   background: linear-gradient(70deg, #facc15, #fbbf24, #f59e0b);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .card {

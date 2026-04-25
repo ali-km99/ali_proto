@@ -17,7 +17,7 @@
       ></div>
       <!-- Glow -->
       <div
-        class="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-[#f5c518]/5 rounded-full blur-[100px] pointer-events-none"
+        class="absolute top-20 left-1/2 -translate-x-1/2 w-150 h-75 bg-[#f5c518]/5 rounded-full blur-[100px] pointer-events-none"
       ></div>
 
       <div
@@ -68,7 +68,7 @@
               x: 0,
               transition: { duration: 600, delay: 100 },
             }"
-            class="border border-white/10 bg-white/[0.02] p-6 relative group hover:border-[#f5c518]/30 transition-all duration-300"
+            class="border border-white/10 bg-white/2 p-6 relative group hover:border-[#f5c518]/30 transition-all duration-300"
           >
             <div
               class="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-[#f5c518]"
@@ -78,7 +78,7 @@
             ></div>
 
             <div
-              class="w-20 h-20 bg-gradient-to-br from-[#f5c518] to-[#c9960c] rounded-full flex items-center justify-center mb-4 text-black font-black text-2xl"
+              class="w-20 h-20 bg-linear-to-br from-[#f5c518] to-[#c9960c] rounded-full flex items-center justify-center mb-4 text-black font-black text-2xl"
             >
               AK
             </div>
@@ -92,7 +92,7 @@
             <div class="space-y-2 text-sm text-white/50">
               <div class="flex items-center gap-3">
                 <span class="text-[#f5c518]">📍</span>
-                <span>Baghdad, Iraq</span>
+                <span>Tripoli, Libya</span>
               </div>
               <div class="flex items-center gap-3">
                 <span class="text-[#f5c518]">📧</span>
@@ -130,7 +130,7 @@
               x: 0,
               transition: { duration: 600, delay: 200 },
             }"
-            class="border border-white/10 bg-white/[0.02] p-6 hover:border-[#f5c518]/30 transition-all duration-300"
+            class="border border-white/10 bg-white/2 p-6 hover:border-[#f5c518]/30 transition-all duration-300"
           >
             <h3
               class="text-xs tracking-[0.2em] uppercase text-[#f5c518] font-bold mb-4"
@@ -143,7 +143,7 @@
                   <span class="text-white/70">{{ lang.name }}</span>
                   <span class="text-white/30 text-xs">{{ lang.level }}</span>
                 </div>
-                <div class="h-[2px] bg-white/10 rounded">
+                <div class="h-0.5 bg-white/10 rounded">
                   <div
                     class="h-full bg-[#f5c518] rounded transition-all duration-1000"
                     :style="{ width: lang.percent + '%' }"
@@ -162,7 +162,7 @@
               x: 0,
               transition: { duration: 600, delay: 300 },
             }"
-            class="border border-white/10 bg-white/[0.02] p-6 hover:border-[#f5c518]/30 transition-all duration-300"
+            class="border border-white/10 bg-white/2 p-6 hover:border-[#f5c518]/30 transition-all duration-300"
           >
             <h3
               class="text-xs tracking-[0.2em] uppercase text-[#f5c518] font-bold mb-4"
@@ -190,7 +190,7 @@
               y: 0,
               transition: { duration: 600, delay: 150 },
             }"
-            class="border border-white/10 bg-white/[0.02] p-8 hover:border-[#f5c518]/30 transition-all duration-300 relative"
+            class="border border-white/10 bg-white/2 p-8 hover:border-[#f5c518]/30 transition-all duration-300 relative"
           >
             <div
               class="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-[#f5c518]"
@@ -201,18 +201,19 @@
               const developer = &#123;
             </h3>
             <p class="text-white/60 leading-relaxed text-sm mb-4">
-              Frontend Developer with
-              <span class="text-white font-bold">4+ years</span> of experience
-              specialized in <span class="text-[#f5c518]">Vue 3</span>,
-              <span class="text-[#f5c518]">TypeScript</span>, and
-              high-performance web architecture. I transform complex business
-              logic into seamless, scalable digital experiences that users love.
+              Frontend Developer with solid experience building modern web
+              applications using
+              <span class="text-[#f5c518]">Vue 3</span>,
+              <span class="text-[#f5c518]">TypeScript</span>, and modern
+              frontend tools. I focus on creating fast, scalable, and
+              user-friendly interfaces that deliver real business value.
             </p>
+
             <p class="text-white/60 leading-relaxed text-sm">
-              Passionate about clean code, component architecture, and
-              delivering pixel-perfect UIs. I collaborate closely with design
-              and backend teams to ship products that are fast, accessible, and
-              maintainable.
+              Experienced in working on real-world projects including systems
+              that connect companies, service providers, and users with complex
+              data handling and clean UI design. Passionate about clean code,
+              performance, and building smooth user experiences.
             </p>
             <div class="mt-4 text-white/20 text-xs">&#125;</div>
           </div>
@@ -226,7 +227,7 @@
               y: 0,
               transition: { duration: 600, delay: 250 },
             }"
-            class="border border-white/10 bg-white/[0.02] p-8 hover:border-[#f5c518]/30 transition-all duration-300"
+            class="border border-white/10 bg-white/2 p-8 hover:border-[#f5c518]/30 transition-all duration-300"
           >
             <h3
               class="text-xs tracking-[0.2em] uppercase text-[#f5c518] font-bold mb-6"
@@ -262,7 +263,7 @@
               y: 0,
               transition: { duration: 600, delay: 350 },
             }"
-            class="border border-white/10 bg-white/[0.02] p-8 hover:border-[#f5c518]/30 transition-all duration-300"
+            class="border border-white/10 bg-white/2 p-8 hover:border-[#f5c518]/30 transition-all duration-300"
           >
             <h3
               class="text-xs tracking-[0.2em] uppercase text-[#f5c518] font-bold mb-6"
@@ -276,7 +277,7 @@
                 class="relative pl-6 border-l border-white/10 hover:border-[#f5c518]/40 transition-colors duration-300"
               >
                 <div
-                  class="absolute -left-[5px] top-1 w-2.5 h-2.5 bg-[#f5c518] rounded-full"
+                  class="absolute -left-1.25 top-1 w-2.5 h-2.5 bg-[#f5c518] rounded-full"
                 ></div>
                 <div
                   class="flex flex-wrap items-start justify-between gap-2 mb-2"
@@ -322,7 +323,7 @@
             <div
               v-for="stat in stats"
               :key="stat.label"
-              class="border border-white/10 bg-white/[0.02] p-5 text-center hover:border-[#f5c518]/40 hover:bg-[#f5c518]/5 transition-all duration-300 group"
+              class="border border-white/10 bg-white/2 p-5 text-center hover:border-[#f5c518]/40 hover:bg-[#f5c518]/5 transition-all duration-300 group"
             >
               <div
                 class="text-3xl font-black text-[#f5c518] group-hover:scale-110 transition-transform duration-300"
@@ -350,73 +351,71 @@ import FooterComp from "../layout/FooterComp.vue";
 
 const languages = [
   { name: "Arabic", level: "Native", percent: 100 },
-  { name: "English", level: "Professional", percent: 85 },
-  { name: "French", level: "Basic", percent: 30 },
+  { name: "English", level: "Good", percent: 75 },
 ];
 
 const education = [
   {
-    year: "2019 – 2023",
+    year: "2022 – Present",
     degree: "B.Sc. Computer Science",
-    school: "University of Technology, Baghdad",
+    school: "Al-Rafaa Private University",
   },
   {
-    year: "2023",
-    degree: "Vue.js Advanced Certification",
-    school: "Vue School — Online",
+    year: "2024",
+    degree: "Frontend Diploma",
+    school: "Route IT Training Center, Cairo - Egypt",
   },
 ];
 
 const skills = [
   {
     category: "Core",
-    items: ["Vue 3", "TypeScript", "JavaScript ES2024", "HTML5", "CSS3"],
+    items: ["Vue 3", "TypeScript", "JavaScript", "HTML5", "CSS3"],
   },
   {
-    category: "Frameworks & Libs",
-    items: ["Nuxt 3", "Pinia", "Vue Router", "VueUse", "Vite"],
+    category: "Frontend Stack",
+    items: ["Vue Router", "Pinia / Vue Query", "Composition API"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "SCSS", "CSS Modules", "Framer Motion", "GSAP"],
+    items: ["Tailwind CSS", "Vuetify", "Responsive Design", "Vue Motion()"],
   },
   {
-    category: "Tools & DevOps",
-    items: ["Git", "GitHub Actions", "Docker", "Vercel", "Figma"],
+    category: "Tools",
+    items: ["Git", "GitHub", "Vite", "Figma"],
   },
 ];
-
 const experience = [
   {
-    title: "Senior Frontend Developer",
-    company: "TechNova Solutions",
-    period: "2023 – Present",
+    title: "Frontend Developer",
+    company: "GrowthTech",
+    period: "2024 – Present",
     description:
-      "Led the frontend architecture of a B2B SaaS platform serving 50k+ users. Built reusable component libraries and reduced initial load time by 40% through code splitting and lazy loading.",
-    tags: ["Vue 3", "TypeScript", "Pinia", "Nuxt 3"],
+      "Worked on multiple real-world enterprise projects including building a complete healthcare insurance system connecting companies, employees, hospitals, and service providers. The system handled complex workflows including financial operations, claims management, and detailed reporting for both providers and organizations.",
+    tags: ["Vue 3", "TypeScript", "Tailwind", "Vue Query"],
   },
   {
     title: "Frontend Developer",
-    company: "PixelCraft Agency",
-    period: "2021 – 2023",
+    company: "GrowthTech",
+    period: "2024",
     description:
-      "Developed 15+ client projects ranging from e-commerce platforms to real-time dashboards. Introduced TypeScript adoption across the team and mentored 3 junior developers.",
-    tags: ["Vue 2/3", "SCSS", "REST APIs", "Webpack"],
+      "Contributed to developing ERP systems for training centers, including hall booking systems, student and instructor management, and financial/accounting modules. Focused on building responsive interfaces and integrating APIs for dynamic data handling.",
+    tags: ["Vue 3", "TypeScript", "UI/UX", "Vuetify"],
   },
   {
-    title: "Junior Frontend Developer",
-    company: "StartupHub Iraq",
-    period: "2019 – 2021",
+    title: "Frontend Developer",
+    company: "Freelance / Personal Projects",
+    period: "2023 – 2024",
     description:
-      "Built responsive landing pages and internal tools. Collaborated directly with product designers to implement pixel-perfect UI components.",
-    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "Built multiple frontend projects focusing on responsive design, clean UI, and API integration using modern frontend technologies.",
+    tags: ["Vue", "Tailwind", "TypeScript", "Vuetify", "Pinia"],
   },
 ];
 
 const stats = [
   { value: "4+", label: "Years Exp." },
-  { value: "30+", label: "Projects" },
-  { value: "15k+", label: "Users Served" },
+  { value: "15+", label: "Projects" },
+  { value: "100%", label: "Frontend Focus" },
 ];
 </script>
 
